@@ -1,0 +1,15 @@
+.table tr:nth-child(even){
+    background-color: #F8f8f8;
+}
+
+.table tr:nth-child(odd){
+    background-color: white;
+}
+
+.table tr{
+    text-align: center;
+    height: 2rem;
+}
+td:hover{
+    color: green;
+}

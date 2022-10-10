@@ -1,0 +1,117 @@
+.product-search-form,.new-customer-form{
+    background-color: white;
+    padding:1rem;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px 1px rgba(0,0,0,0.5);
+    width: 40%;
+    margin: 0 auto;
+
+}
+
+.orders div{
+    /* background-color: red; */
+    width: 60%;
+    margin: 0 auto;
+
+}
+
+
+.h div{
+    background-color: green;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 20px 0;
+    height: 50px;
+    padding: 10px;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.end{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-div{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid; */
+    align-items: center;
+
+}
+
+form div label {
+    width: 200px;
+    display: inline-block;
+   
+}
+
+.search-result{
+    background-color: white;
+    width: 40%;
+    box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.5);
+    margin: 2rem auto;
+    border-radius: 10px;
+    display: flex;
+    height: 5rem;
+    padding: 0 1rem;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.search-result input,.cart-headers button{
+    background-color: #C06014;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 0.8rem;
+    font-family: 'Prompt';
+    /* font-size: 1.2rem; */
+    font-weight: 800;
+    color: white;
+}
+
+.cart{
+    margin-top: 1rem;
+    box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.5);
+    background-color: red;
+    padding: 1rem 1rem;
+    background-color: white;
+    border-radius: 0.8rem;
+}
+
+.cart-headers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart-item{
+    display: flex;
+    background-color: #c3c3c3;
+    border-radius: 0.8rem;
+    padding: 0 1rem;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.cart-total{
+    margin-top: 0.5rem;
+    margin-right: 2rem;
+    float: right;
+}
+
+.customer-search-result{
+    display: flex;
+    flex-direction: column;
+}
+
+.customer-search{
+    text-align: center;
+}

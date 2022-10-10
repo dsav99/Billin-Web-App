@@ -1,0 +1,28 @@
+.signup-form{
+    /* width:40%; */
+    padding: 2rem;
+    /* margin: 0 auto; */
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-form input{
+    width: 200px;
+    border: none;
+}
+
+.signup-form button{
+    margin: 1rem 0;
+    width: 210px;
+    border: none;
+    height: 2rem;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+
+
+.sign-header{
+    margin: 2rem;
+}
